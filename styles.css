@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif
+}
+
+header {
+    margin-left: 41px;
+    margin-top: 41px;
+}
+
+a {
+
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    width: 37px;
+    height: 21px;
+    margin-left: 47px;
+    color: #17233D;
+}
+
+main {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+   
+    
+
+}
+
+.main-button {
+    width: 124px;
+    height: 51px;
+    color: aliceblue;
+    background: #6FBF44;
+    border-color: #4CB538;
+    border-radius: 1px;
+    cursor: pointer;
+
+}
+
+
+img {
+
+
+    width: 495px;
+    height: 466px;
+    margin-left: 123px;
+    margin-top: 163px;
+    opacity: 1;
+}
+
+div {
+
+
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 493px;
+
+
+}
+
+h1 {
+    color: #161A49;
+    height: 164px;
+    ;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+}
+
+
+p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+
+
+
+}
+
+.div-button {
+    height: 95px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+    color: #6FBF44;
+    cursor: pointer;
+
+
+}
+
+@media screen and (max-width:800px) {
+    main {
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        a {
+            display: none;
+            
+            
+        }
+        
+    }
+
+    .main-button {
+
+        
+        width: 93px;
+        height: 30px;
+        opacity: 1;
+        top: 6px;
+        left: 20px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        margin-left: auto;
+        margin-right: 10px;
+        border-radius: 20px;
+
+
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        opacity: 1;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        margin: auto;
+
+
+    }
+
+    p {
+        width: 304;
+        height: 165px;
+        opacity: 1;
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    div {
+
+        order: 1;
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        margin: auto;
+        display: block;
+        max-width: 600px;
+       
+
+
+    }
+
+    
+
+    img {
+        order: 2;
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+}
