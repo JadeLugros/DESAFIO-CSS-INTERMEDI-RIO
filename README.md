@@ -7,3 +7,4 @@
 <br>
 <br>
 <h2>MOBILE:</h2>
+<img src="https://github.com/JadeLugros/DESAFIO-CSS-INTERMEDI-RIO/blob/main/desafiocssintermediariomobile.png?raw=true">
